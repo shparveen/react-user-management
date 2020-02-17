@@ -1,24 +1,34 @@
 {
-  "name": "react-redux-registration-login",
-  "version": "0.0.0",
+  "name": "amplifyapp",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "16.1.1",
-    "redux": "4.0.0",
-    "history": "4.7.2",
-    "react-dom": "16.12.0",
-    "react-redux": "5.0.7",
-    "redux-thunk": "2.2.0",
-    "redux-logger": "3.0.6",
-    "react-router-dom": "4.2.2"
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.3.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "devDependencies": {
-    "react-scripts": "latest"
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
